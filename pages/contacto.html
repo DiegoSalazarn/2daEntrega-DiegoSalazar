@@ -60,9 +60,73 @@
     </header>
 
     <main>
+        <!--Second title FORMULARIO-->
+      <div class="primary-titleForm">
+        <h1>
+          Completar formulario (obligatorio)
+        </h1>
+    </div>
 
+      <section class="container-fluid container-formulario">
+      <form class="row g-3">
+        <div class="col-md-6">
+            <!--class creada (email-container)-->
+          <div class="email-container">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
 
+          <!-- area-nombre -->
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputname" placeholder="Nombre">
+        </div>
 
+        <!--Area - apellidos-->
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="input-lastname" placeholder="Apellido">
+        </div>
+
+        <!--Area Ciudad-->
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Buenos aires">
+        </div>
+
+        <!--Area paises-->
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Pais</label>
+          <select id="inputState" class="form-select">
+            <option selected> Argentina </option>
+            <option> Uruguay </option>
+            <option> Paraguay </option>
+            <option> Chile </option>
+            <option> Venezuela </option>
+            <option> Otro.. </option>
+          </select>
+        </div>
+             <!--Boxarea - text-->
+            <div class="mb-3 box-text">
+              <label for="exampleFormControlTextarea1" class="form-label">Informacion/critica/description</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Acepto los terminos y condiciones
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+
+      
+    </section>
 
     </main>
 
@@ -74,10 +138,9 @@
     </aside>
 
     <footer>
-
-
-
-
+      <div class="logo-footer">
+      <img src="../assets/oversizelook.jpg" alt="Logo-footer">
+      </div>
     </footer>
 </body>
 </html>

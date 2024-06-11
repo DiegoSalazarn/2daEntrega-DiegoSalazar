@@ -1,6 +1,9 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+    /*TODO EL INDEX HASTA AVISAR CAMBIO DE PAGINA*/
+
 .titulo-index h1{
     background-color: brown;
     display: flex;
@@ -46,7 +49,7 @@
     color: black;
 }
 
-/*IMG-MAIN (patalones-remeras-buzos)*/
+/*CONTENEDORES CARD. (main)*/
 
 .contenedor-card{
     flex-wrap: wrap;
@@ -75,3 +78,55 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.btn-primary{
+    background-color: brown;
+    margin-top: 10px;
+}
+
+/*PAGE - CONTACTO*/
+
+.container-formulario input{
+    background-color: #a9a9a9;
+}
+
+.primary-titleForm h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    display: flex ;
+    justify-content: center;
+    background-color: gold;
+    margin-top: 20px;
+
+}
+
+.email-container{
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
+.form-select {
+    background-color: dodgerblue;
+}
+
+.box-text textarea{
+    background-color: #a9a9a9;
+}
+
+
+/*FOOTRE GENERAL (para todas las pages)*/
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+footer{
+    background-color: #2f4f4f;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
