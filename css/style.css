@@ -40,6 +40,23 @@
     padding: 20px 20px 20px 20px;
 }
 
+.carousel-control-next{
+    
+    background-color: darkgrey;
+    margin-right: 17px;
+    margin-bottom: 22px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.carousel-control-prev{
+    background-color: grey;
+    margin-right: 15px;
+    margin-bottom: 22px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
     /*Segundo titulo*/
 .second-title{
     display: flex;
@@ -51,38 +68,20 @@
 
 /*CONTENEDORES CARD. (main)*/
 
-.contenedor-card{
-    flex-wrap: wrap;
-}
-
-.card-uno{
-    display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.card-dos{
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.card-tres{
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .btn-primary{
     background-color: brown;
     margin-top: 10px;
 }
+/*PAGE - ARTICULOS*/
+
+.title-article h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+    color: black;
+}
+
 
 /*PAGE - CONTACTO*/
 
@@ -111,6 +110,11 @@
 
 .box-text textarea{
     background-color: #a9a9a9;
+}
+
+.box-text label{
+    display: flex;
+    padding: 3px;
 }
 
 
