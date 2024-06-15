@@ -182,11 +182,12 @@
 }
 
 .description_qs{
+    font-family: "Ubuntu", sans-serif;;
     font-size: 1.1em;
     line-height: 1.6;
     margin-top: 20px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     display: flex;
     text-align: center;
 }
@@ -202,7 +203,7 @@
     font-size: 1.1em;
     line-height: 1.6;
     margin-top: 20px;
-    background-color: green;
+    background-color: rgb(13, 196, 13);
     color: white;
     display: flex;
     justify-content: center;
